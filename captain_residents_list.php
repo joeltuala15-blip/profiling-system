@@ -307,6 +307,21 @@ if ($act_query) {
                 justify-content: flex-start;
             }
         }
+
+        /* Modal Dark Mode Overrides */
+        body.dark-mode #residentDetailModal .modal-container {
+            background: #1e293b !important;
+            border-color: #334155 !important;
+        }
+        body.dark-mode #residentDetailModal [style*="border-bottom:1px solid #e2e8f0"] {
+            border-bottom-color: #334155 !important;
+        }
+        body.dark-mode #residentDetailModal h2 { color: #f8fafc !important; }
+        body.dark-mode #residentDetailModal div[id^="modalRes"] { color: #f8fafc !important; }
+        body.dark-mode #residentDetailModal label { color: #94a3b8 !important; }
+        body.dark-mode #residentDetailModal p { color: #94a3b8 !important; }
+        body.dark-mode #residentDetailModal button:hover { color: #f8fafc !important; }
+
     </style>
 </head>
 <body>
